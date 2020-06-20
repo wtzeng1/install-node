@@ -263,7 +263,7 @@ fi
 URL="${BASE_URL}/${RESOLVED}/node-${RESOLVED}-${PLATFORM}-${ARCH}.tar.gz"
 info "Tarball URL: ${UNDERLINE}${BLUE}${URL}${NO_COLOR}"
 check_prefix "${PREFIX}"
-confirm "Install Node.js ${GREEN}${RESOLVED}${NO_COLOR} to ${BOLD}${GREEN}${PREFIX}${NO_COLOR}?"
+# confirm "Install Node.js ${GREEN}${RESOLVED}${NO_COLOR} to ${BOLD}${GREEN}${PREFIX}${NO_COLOR}?"
 
 info "Installing Node.js, please wait…"
 
